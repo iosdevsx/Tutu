@@ -7,10 +7,7 @@
 //
 
 #import "JDStationsViewController.h"
-#import "JDStation.h"
-#import "JDStationCell.h"
 #import "JDStationDetailController.h"
-#import "JDBaseTableProvider.h"
 #import "JDStationTableProvider.h"
 
 @interface JDStationsViewController () <JDBaseTableDelegate>
