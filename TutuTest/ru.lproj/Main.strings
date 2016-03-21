@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Test App for tutu.ru"; ObjectID = "3G5-cX-dor"; */
+"3G5-cX-dor.text" = "Тестовое задание для tutu.ru";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7u0-bT-gAV"; */
+"7u0-bT-gAV.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Tap to select station"; ObjectID = "8Xd-1p-GzM"; */
+"8Xd-1p-GzM.placeholder" = "Выберите станцию";
+
+/* Class = "UITabBarItem"; title = "Schedule"; ObjectID = "DlA-Lm-yJ1"; */
+"DlA-Lm-yJ1.title" = "Расписание";
+
+/* Class = "UITextField"; placeholder = "Tap to select date"; ObjectID = "FXb-In-yRK"; */
+"FXb-In-yRK.placeholder" = "Выберите дату";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "JFI-Ck-e3j"; */
+"JFI-Ck-e3j.text" = "Дата";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "Jaw-t2-fQp"; */
+"Jaw-t2-fQp.title" = "О приложении";
+
+/* Class = "UITextField"; placeholder = "Tap to select station"; ObjectID = "XHA-Jx-BNl"; */
+"XHA-Jx-BNl.placeholder" = "Выберите станцию";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZRn-WO-YIi"; */
+"ZRn-WO-YIi.text" = "Label";
+
+/* Class = "UILabel"; text = "version 1.00"; ObjectID = "bVC-d5-u1i"; */
+"bVC-d5-u1i.text" = "версия 1.00";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "d8T-Be-RgT"; */
+"d8T-Be-RgT.text" = "Откуда";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "dLW-UZ-uWg"; */
+"dLW-UZ-uWg.text" = "Куда";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ivk-Be-8jO"; */
+"ivk-Be-8jO.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "puP-b0-Vxi"; */
+"puP-b0-Vxi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "t2r-Qw-yiQ"; */
+"t2r-Qw-yiQ.text" = "Label";

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TutuTest
+
+  Created by jsd on 22.03.16.
+  Copyright © 2016 jsd. All rights reserved.
+*/
+station = "Station";
+station_info = "Station Info";

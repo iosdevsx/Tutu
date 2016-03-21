@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F9FABD1CA02F7E0068AFC3 /* JDStationDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F9FABC1CA02F7E0068AFC3 /* JDStationDetailController.m */; };
+		47F9FABF1CA0443C0068AFC3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F9FABE1CA0443C0068AFC3 /* MapKit.framework */; };
+		47F9FAC21CA045EA0068AFC3 /* JDMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F9FAC11CA045EA0068AFC3 /* JDMapAnnotation.m */; };
+		47FA0D0E1C9D703A001D0CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA0D0D1C9D703A001D0CAD /* main.m */; };
+		47FA0D111C9D703A001D0CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA0D101C9D703A001D0CAD /* AppDelegate.m */; };
+		47FA0D171C9D703A001D0CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FA0D151C9D703A001D0CAD /* Main.storyboard */; };
+		47FA0D191C9D703A001D0CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FA0D181C9D703A001D0CAD /* Assets.xcassets */; };
+		47FA0D1C1C9D703A001D0CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FA0D1A1C9D703A001D0CAD /* LaunchScreen.storyboard */; };
+		47FA0D241C9D7075001D0CAD /* allStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 47FA0D231C9D7075001D0CAD /* allStations.json */; };
+		47FA0D271C9D7222001D0CAD /* JDScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA0D261C9D7222001D0CAD /* JDScheduleController.m */; };
+		47FEF67F1C9EA43B0028CCA0 /* JDStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEF67E1C9EA43B0028CCA0 /* JDStationsViewController.m */; };
+		47FEF6821C9EB2D70028CCA0 /* JDStationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEF6811C9EB2D70028CCA0 /* JDStationCell.m */; };
+		47FEF6851C9EB3070028CCA0 /* JDStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEF6841C9EB3070028CCA0 /* JDStation.m */; };
+		47FFCAAC1CA05B5B00BB308A /* JDDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFCAAB1CA05B5B00BB308A /* JDDatePicker.m */; };
+		47FFCAAF1CA07FA500BB308A /* JDBaseTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFCAAE1CA07FA500BB308A /* JDBaseTableProvider.m */; };
+		47FFCAB31CA07FBF00BB308A /* JDStationTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFCAB21CA07FBF00BB308A /* JDStationTableProvider.m */; };
+		47FFCAB71CA099E400BB308A /* JDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFCAB61CA099E400BB308A /* JDAboutViewController.m */; };
+		47FFCAC21CA0A7B700BB308A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47FFCAC41CA0A7B700BB308A /* Localizable.strings */; };
+		47FFCAC81CA0A86F00BB308A /* NSString+DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFCAC71CA0A86F00BB308A /* NSString+DateHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47F9FABB1CA02F7E0068AFC3 /* JDStationDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStationDetailController.h; sourceTree = "<group>"; };
+		47F9FABC1CA02F7E0068AFC3 /* JDStationDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStationDetailController.m; sourceTree = "<group>"; };
+		47F9FABE1CA0443C0068AFC3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		47F9FAC01CA045EA0068AFC3 /* JDMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMapAnnotation.h; sourceTree = "<group>"; };
+		47F9FAC11CA045EA0068AFC3 /* JDMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMapAnnotation.m; sourceTree = "<group>"; };
+		47FA0D091C9D703A001D0CAD /* TutuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FA0D0D1C9D703A001D0CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47FA0D0F1C9D703A001D0CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47FA0D101C9D703A001D0CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47FA0D161C9D703A001D0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47FA0D181C9D703A001D0CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FA0D1B1C9D703A001D0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47FA0D1D1C9D703A001D0CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FA0D231C9D7075001D0CAD /* allStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allStations.json; sourceTree = "<group>"; };
+		47FA0D251C9D7222001D0CAD /* JDScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDScheduleController.h; sourceTree = "<group>"; };
+		47FA0D261C9D7222001D0CAD /* JDScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDScheduleController.m; sourceTree = "<group>"; };
+		47FEF67D1C9EA43B0028CCA0 /* JDStationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStationsViewController.h; sourceTree = "<group>"; };
+		47FEF67E1C9EA43B0028CCA0 /* JDStationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStationsViewController.m; sourceTree = "<group>"; };
+		47FEF6801C9EB2D70028CCA0 /* JDStationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStationCell.h; sourceTree = "<group>"; };
+		47FEF6811C9EB2D70028CCA0 /* JDStationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStationCell.m; sourceTree = "<group>"; };
+		47FEF6831C9EB3070028CCA0 /* JDStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStation.h; sourceTree = "<group>"; };
+		47FEF6841C9EB3070028CCA0 /* JDStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStation.m; sourceTree = "<group>"; };
+		47FFCAAA1CA05B5B00BB308A /* JDDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDatePicker.h; sourceTree = "<group>"; };
+		47FFCAAB1CA05B5B00BB308A /* JDDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDatePicker.m; sourceTree = "<group>"; };
+		47FFCAAD1CA07FA500BB308A /* JDBaseTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBaseTableProvider.h; sourceTree = "<group>"; };
+		47FFCAAE1CA07FA500BB308A /* JDBaseTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBaseTableProvider.m; sourceTree = "<group>"; };
+		47FFCAB11CA07FBF00BB308A /* JDStationTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStationTableProvider.h; sourceTree = "<group>"; };
+		47FFCAB21CA07FBF00BB308A /* JDStationTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStationTableProvider.m; sourceTree = "<group>"; };
+		47FFCAB51CA099E400BB308A /* JDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAboutViewController.h; sourceTree = "<group>"; };
+		47FFCAB61CA099E400BB308A /* JDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAboutViewController.m; sourceTree = "<group>"; };
+		47FFCABE1CA0A5ED00BB308A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		47FFCABF1CA0A5ED00BB308A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		47FFCAC31CA0A7B700BB308A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47FFCAC51CA0A7B900BB308A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47FFCAC61CA0A86F00BB308A /* NSString+DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateHelper.h"; sourceTree = "<group>"; };
+		47FFCAC71CA0A86F00BB308A /* NSString+DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateHelper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FA0D061C9D703A001D0CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F9FABF1CA0443C0068AFC3 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FA0D001C9D703A001D0CAD = {
+			isa = PBXGroup;
+			children = (
+				47F9FABE1CA0443C0068AFC3 /* MapKit.framework */,
+				47FA0D0B1C9D703A001D0CAD /* TutuTest */,
+			);
+			sourceTree = "<group>";
+		};
+		47FA0D0A1C9D703A001D0CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FA0D091C9D703A001D0CAD /* TutuTest.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		47FA0D0B1C9D703A001D0CAD /* TutuTest */ = {
+			isa = PBXGroup;
+			children = (
+				47FA0D0F1C9D703A001D0CAD /* AppDelegate.h */,
+				47FA0D101C9D703A001D0CAD /* AppDelegate.m */,
+				47FFCAB41CA0821000BB308A /* Model */,
+				47FFCABC1CA09E9A00BB308A /* View */,
+				47FFCAB81CA09E3800BB308A /* Controller */,
+				47FFCAB01CA07FAB00BB308A /* Table */,
+				47FFCABD1CA09EF100BB308A /* Utils */,
+				47FA0D0A1C9D703A001D0CAD /* Products */,
+				47FA0D0C1C9D703A001D0CAD /* Supporting Files */,
+			);
+			path = TutuTest;
+			sourceTree = "<group>";
+		};
+		47FA0D0C1C9D703A001D0CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47FA0D181C9D703A001D0CAD /* Assets.xcassets */,
+				47FA0D1A1C9D703A001D0CAD /* LaunchScreen.storyboard */,
+				47FA0D1D1C9D703A001D0CAD /* Info.plist */,
+				47FA0D231C9D7075001D0CAD /* allStations.json */,
+				47FA0D0D1C9D703A001D0CAD /* main.m */,
+				47FFCAC41CA0A7B700BB308A /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47FFCAB01CA07FAB00BB308A /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				47FFCABB1CA09E7A00BB308A /* Cells */,
+				47FFCAAD1CA07FA500BB308A /* JDBaseTableProvider.h */,
+				47FFCAAE1CA07FA500BB308A /* JDBaseTableProvider.m */,
+				47FFCAB11CA07FBF00BB308A /* JDStationTableProvider.h */,
+				47FFCAB21CA07FBF00BB308A /* JDStationTableProvider.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		47FFCAB41CA0821000BB308A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47FEF6831C9EB3070028CCA0 /* JDStation.h */,
+				47FEF6841C9EB3070028CCA0 /* JDStation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		47FFCAB81CA09E3800BB308A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47FA0D251C9D7222001D0CAD /* JDScheduleController.h */,
+				47FA0D261C9D7222001D0CAD /* JDScheduleController.m */,
+				47FFCAAA1CA05B5B00BB308A /* JDDatePicker.h */,
+				47FFCAAB1CA05B5B00BB308A /* JDDatePicker.m */,
+				47FFCAB51CA099E400BB308A /* JDAboutViewController.h */,
+				47FFCAB61CA099E400BB308A /* JDAboutViewController.m */,
+				47FFCAB91CA09E5200BB308A /* Stations */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		47FFCAB91CA09E5200BB308A /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				47FEF67D1C9EA43B0028CCA0 /* JDStationsViewController.h */,
+				47FEF67E1C9EA43B0028CCA0 /* JDStationsViewController.m */,
+				47F9FABB1CA02F7E0068AFC3 /* JDStationDetailController.h */,
+				47F9FABC1CA02F7E0068AFC3 /* JDStationDetailController.m */,
+			);
+			name = Stations;
+			sourceTree = "<group>";
+		};
+		47FFCABB1CA09E7A00BB308A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				47FEF6801C9EB2D70028CCA0 /* JDStationCell.h */,
+				47FEF6811C9EB2D70028CCA0 /* JDStationCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		47FFCABC1CA09E9A00BB308A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47FA0D151C9D703A001D0CAD /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		47FFCABD1CA09EF100BB308A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				47F9FAC01CA045EA0068AFC3 /* JDMapAnnotation.h */,
+				47F9FAC11CA045EA0068AFC3 /* JDMapAnnotation.m */,
+				47FFCAC61CA0A86F00BB308A /* NSString+DateHelper.h */,
+				47FFCAC71CA0A86F00BB308A /* NSString+DateHelper.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47FA0D081C9D703A001D0CAD /* TutuTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FA0D201C9D703A001D0CAD /* Build configuration list for PBXNativeTarget "TutuTest" */;
+			buildPhases = (
+				47FA0D051C9D703A001D0CAD /* Sources */,
+				47FA0D061C9D703A001D0CAD /* Frameworks */,
+				47FA0D071C9D703A001D0CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutuTest;
+			productName = TutuTest;
+			productReference = 47FA0D091C9D703A001D0CAD /* TutuTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FA0D011C9D703A001D0CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jsd;
+				TargetAttributes = {
+					47FA0D081C9D703A001D0CAD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TWW7UPTWB8;
+					};
+				};
+			};
+			buildConfigurationList = 47FA0D041C9D703A001D0CAD /* Build configuration list for PBXProject "TutuTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47FA0D001C9D703A001D0CAD;
+			productRefGroup = 47FA0D0A1C9D703A001D0CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47FA0D081C9D703A001D0CAD /* TutuTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47FA0D071C9D703A001D0CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FFCAC21CA0A7B700BB308A /* Localizable.strings in Resources */,
+				47FA0D1C1C9D703A001D0CAD /* LaunchScreen.storyboard in Resources */,
+				47FA0D191C9D703A001D0CAD /* Assets.xcassets in Resources */,
+				47FA0D241C9D7075001D0CAD /* allStations.json in Resources */,
+				47FA0D171C9D703A001D0CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47FA0D051C9D703A001D0CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F9FABD1CA02F7E0068AFC3 /* JDStationDetailController.m in Sources */,
+				47FA0D111C9D703A001D0CAD /* AppDelegate.m in Sources */,
+				47FA0D271C9D7222001D0CAD /* JDScheduleController.m in Sources */,
+				47F9FAC21CA045EA0068AFC3 /* JDMapAnnotation.m in Sources */,
+				47FFCAAC1CA05B5B00BB308A /* JDDatePicker.m in Sources */,
+				47FEF6851C9EB3070028CCA0 /* JDStation.m in Sources */,
+				47FFCAB71CA099E400BB308A /* JDAboutViewController.m in Sources */,
+				47FFCAB31CA07FBF00BB308A /* JDStationTableProvider.m in Sources */,
+				47FFCAAF1CA07FA500BB308A /* JDBaseTableProvider.m in Sources */,
+				47FA0D0E1C9D703A001D0CAD /* main.m in Sources */,
+				47FEF67F1C9EA43B0028CCA0 /* JDStationsViewController.m in Sources */,
+				47FEF6821C9EB2D70028CCA0 /* JDStationCell.m in Sources */,
+				47FFCAC81CA0A86F00BB308A /* NSString+DateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47FA0D151C9D703A001D0CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FA0D161C9D703A001D0CAD /* Base */,
+				47FFCABE1CA0A5ED00BB308A /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47FA0D1A1C9D703A001D0CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FA0D1B1C9D703A001D0CAD /* Base */,
+				47FFCABF1CA0A5ED00BB308A /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47FFCAC41CA0A7B700BB308A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FFCAC31CA0A7B700BB308A /* ru */,
+				47FFCAC51CA0A7B900BB308A /* Base */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47FA0D1E1C9D703A001D0CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47FA0D1F1C9D703A001D0CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47FA0D211C9D703A001D0CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutuTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.TutuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47FA0D221C9D703A001D0CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutuTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.TutuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47FA0D041C9D703A001D0CAD /* Build configuration list for PBXProject "TutuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FA0D1E1C9D703A001D0CAD /* Debug */,
+				47FA0D1F1C9D703A001D0CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FA0D201C9D703A001D0CAD /* Build configuration list for PBXNativeTarget "TutuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FA0D211C9D703A001D0CAD /* Debug */,
+				47FA0D221C9D703A001D0CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47FA0D011C9D703A001D0CAD /* Project object */;
+}
